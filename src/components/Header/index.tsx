@@ -1,10 +1,8 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { MdShoppingBasket } from 'react-icons/md';
 import { useCart } from '../../hooks/useCart';
 
 import logo from '../../assets/images/logo.svg';
-
 import { Container, Cart } from './styles';
 
 const Header = (): JSX.Element => {
